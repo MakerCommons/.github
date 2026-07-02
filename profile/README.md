@@ -7,6 +7,8 @@ everyday problems for real people, and give the result away free and open source
 
 *Useful beats impressive. AI is a tool, not a paywall. Free and open, or it doesn't count.*
 
+**🌐 [makercommons.pages.dev](https://makercommons.pages.dev)**
+
 [Manifesto](https://github.com/MakerCommons/.github/blob/main/MANIFESTO.md) ·
 [Contribute](https://github.com/MakerCommons/.github/blob/main/CONTRIBUTING.md) ·
 [Bring a problem](https://github.com/MakerCommons/.github/issues/new/choose) ·
