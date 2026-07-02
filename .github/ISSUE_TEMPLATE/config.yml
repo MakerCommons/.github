@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Read the Manifesto first
+    url: https://github.com/MakerCommons/.github/blob/main/MANIFESTO.md
+    about: What we believe and how the collective works. Two minutes, worth it.
+  - name: 🤝 How to contribute
+    url: https://github.com/MakerCommons/.github/blob/main/CONTRIBUTING.md
+    about: The three ways to get involved — bring a problem, build a tool, or help out.

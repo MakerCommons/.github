@@ -1,0 +1,51 @@
+name: "🧩 Bring a problem"
+description: "Share a real, everyday annoyance you'd love a free tool to solve."
+title: "[Problem] "
+labels: ["problem", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for bringing a problem to the commons! You don't need to know how
+        to build anything — just describe the annoyance clearly. Good problems
+        are **real**, **small & concrete**, and **shared by many**.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem?
+      description: The everyday annoyance, in plain language.
+      placeholder: "I keep losing track of which subscriptions renew this month and get surprise charges."
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who has this problem?
+      description: You? A group of people? Roughly how many, and how often does it bite?
+      placeholder: "Anyone with a handful of subscriptions — friends, family, basically everyone I know."
+    validations:
+      required: true
+  - type: textarea
+    id: solved
+    attributes:
+      label: What would "solved" look like?
+      description: How would you know the problem is gone? No need for a technical spec.
+      placeholder: "Something that shows me what renews in the next 30 days and reminds me before it charges."
+    validations:
+      required: true
+  - type: textarea
+    id: existing
+    attributes:
+      label: What have you tried / does a good free tool already exist?
+      description: A quick note on existing options and why they don't cut it (too expensive, closed, bloated, etc.).
+    validations:
+      required: false
+  - type: checkboxes
+    id: fit
+    attributes:
+      label: Fit check
+      options:
+        - label: This is a real problem people actually have (not hypothetical).
+          required: true
+        - label: I've done a quick search and there's no obvious good, free tool for it.
+          required: false

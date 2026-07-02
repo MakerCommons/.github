@@ -1,0 +1,63 @@
+name: "💡 Propose a tool"
+description: "You want to build (or see built) a specific tool that solves a problem."
+title: "[Tool] "
+labels: ["tool", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose a concrete tool. Scope it **small** — something useful can ship
+        fast and grow later. Remember the non-negotiables: free, open source
+        (AGPL-3.0), genuinely useful, honest about its limits.
+  - type: textarea
+    id: what
+    attributes:
+      label: What is the tool?
+      description: One or two sentences. What does it do?
+      placeholder: "A tiny web app that tracks subscription renewal dates and reminds you before you're charged."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+      description: Link an existing "problem" issue if there is one.
+      placeholder: "Closes the surprise-subscription-charges problem in #12."
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role
+      description: Are you offering to build it, or asking someone to?
+      options:
+        - "I want to build it"
+        - "I'd help build it with others"
+        - "I'm proposing it for someone else to build"
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Smallest useful version
+      description: What's the minimum that would already help someone? What's explicitly out of scope for v1?
+    validations:
+      required: false
+  - type: input
+    id: stack
+    attributes:
+      label: Stack / approach (optional)
+      placeholder: "Static site, no backend; or a CLI; or a small Rust service…"
+    validations:
+      required: false
+  - type: checkboxes
+    id: values
+    attributes:
+      label: Values check
+      options:
+        - label: This will be free — no paywall on the core function.
+          required: true
+        - label: This will be open source under AGPL-3.0.
+          required: true
+        - label: This solves a real problem, not a hypothetical one.
+          required: true
