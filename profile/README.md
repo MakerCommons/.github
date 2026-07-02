@@ -26,6 +26,36 @@ empire on them.
 
 We fix them anyway. For free. In the open.
 
+## Where this comes from
+
+*A note from the founder.*
+
+I didn't arrive here from a manifesto. I arrived here from projects.
+
+Over years of building software — on my own things, with clients, alongside
+other developers — I kept noticing the same pattern. On project after project,
+too many of the people around me were **hungrier for money than for craft**.
+More eager to bill than to learn. Quicker to ship something just-good-enough to
+charge for than to actually understand the problem or care whether it worked.
+
+The tools kept getting better. AI made it possible to build in a weekend what
+used to take a team a quarter. And instead of that abundance flowing to the
+people with the problems, I watched it get wrapped in a subscription and sold
+back to them — thin products at fat prices, dressed up as innovation.
+
+At some point "that's just how the industry is" stopped being an acceptable
+answer. If building is this cheap now, then the small, real problems ordinary
+people have are finally *worth solving* — not because there's money in them,
+but because there's finally no excuse not to.
+
+So this is the opposite bet. Be greedy for the craft, not the invoice. Use the
+same powerful tools, point them at real everyday annoyances, and give the
+results away. If that means I earn less, fine — I'd rather build things I'm
+proud of, in the open, with people who feel the same way.
+
+That's what MakerCommons is. If you've felt that same itch, you're already one
+of us.
+
 ## How it works
 
 1. **Someone brings a real problem** — small, concrete, shared by many.
